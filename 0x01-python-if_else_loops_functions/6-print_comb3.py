@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-j = 0
+j = 1
 i = 0
 while i < 9:
     while j < 10:
@@ -9,4 +9,4 @@ while i < 9:
             print("{}{}".format(i, j), end=", ")
         j += 1
     i += 1
-    j = i
+    j = i + 1
