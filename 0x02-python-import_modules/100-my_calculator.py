@@ -13,13 +13,13 @@ if __name__ == "__main__":
     if sys.argv[2] == "+":
         sum = add(a, b)
         print("{} + {} = {}".format(a, b, sum))
-    if sys.argv[2] == "-":
+    elif sys.argv[2] == "-":
         sum = sub(a, b)
         print("{} + {} = {}".format(a, b, sum))
-    if sys.argv[2] == "*":
+    elif sys.argv[2] == "*":
         sum = mul(a, b)
         print("{} + {} = {}".format(a, b, sum))
-    if sys.argv[2] == "/":
+    elif sys.argv[2] == "/":
         sum = div(a, b)
         print("{} + {} = {}".format(a, b, sum))
     else:
