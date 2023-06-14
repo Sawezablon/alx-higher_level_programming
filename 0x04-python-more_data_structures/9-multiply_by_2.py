@@ -6,5 +6,4 @@ def multiply_by_2(a_dictionary):
     keys = a_dictionary.keys()
     for key in keys:
         new[key] = a_dictionary[key] * 2
-
     return new
