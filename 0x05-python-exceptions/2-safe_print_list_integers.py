@@ -1,12 +1,14 @@
 #!/usr/bin/python3
 def safe_print_list_integers(my_list=[], x=0):
     i = 0
+    z = 0
     for list in range(x):
         try:
             print("{:d}".format(my_list[i]), end='')
             i += 1
         except (ValueError, TypeError):
             i += 1
+            z += 1
             continue
     print()
-    return i
+    return i - z
