@@ -46,7 +46,10 @@ class Rectangle:
 
     """Public instance method that returns the rectangle perimeter"""
     def __str__(self):
-        row = "#" * self.__width
-        rectangle = (row + "\n") * (self.__height - 1)
-        rectangle += row
-        return rectangle
+        if self.__width == 0 or self.__height == 0:
+            return ("")
+        else:
+            row = "#" * self.__width
+            rectangle = (row + "\n") * (self.__height - 1)
+            rectangle += row
+            return (rectangle)
