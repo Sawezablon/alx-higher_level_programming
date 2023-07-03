@@ -39,9 +39,11 @@ class NQueens:
             solution.append([row, self.board[row]])
         self.solutions.append(solution)
 
+
 def print_solutions(solutions):
     for solution in solutions:
         print(solution)
+
 
 if __name__ == "__main__":
     """Check number of arguments"""
