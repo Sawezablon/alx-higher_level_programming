@@ -1,0 +1,18 @@
+Import the function:
+    >>> say_my_name = __import__('3-say_my_name').say_my_name
+
+Now test it:
+
+    >>> say_my_name(12, "White")
+    Traceback (most recent call last):
+    TypeError: first_name must be a string
+
+    >>> say_my_name("new", 1)
+    Traceback (most recent call last):
+    TypeError: last_name must be a string
+
+    >>> say_my_name("new", "name")
+    My name is new name
+
+    >>> say_my_name("new")
+    My name is new 
