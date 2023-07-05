@@ -7,6 +7,9 @@ divides all elements
 
 
 def matrix_divided(matrix, div):
+    """
+    divide elements in matrix
+    """
     if not isinstance(div, (int, float)):
         raise TypeError("div must be a number")
     if div == 0:
