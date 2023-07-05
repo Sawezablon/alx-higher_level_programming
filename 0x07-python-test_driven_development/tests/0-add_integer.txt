@@ -22,7 +22,7 @@ Now test it:
     >>> add_integer(10.0, 2.0)
     12
 
-    >>> add_integer(4, "School")
+    >>> add_integer(4, "test")
     Traceback (most recent call last):
     TypeError: b must be an integer
 
@@ -38,7 +38,7 @@ Now test it:
     Traceback (most recent call last):
     OverflowError: cannot convert float infinity to integer
 
-    >>> add_integer("Hello", "World")
+    >>> add_integer("Zablon", 2)
     Traceback (most recent call last):
     TypeError: a must be an integer
 
