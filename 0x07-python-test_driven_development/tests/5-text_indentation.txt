@@ -16,3 +16,17 @@ Now test it:
     <BLANKLINE>
     Your name?
     <BLANKLINE>
+
+    >>> text_indentation("Hello\n\nMr.")
+    Hello
+    <BLANKLINE>
+    Mr.
+    <BLANKLINE>
+
+    >>> text_indentation(".    : ?")
+    .
+    <BLANKLINE>
+    :
+    <BLANKLINE>
+    ?
+    <BLANKLINE>
