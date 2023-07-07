@@ -44,12 +44,17 @@ def matrix_mul(m_a, m_b):
     rows_B = len(m_b)
     cols_B = len(m_b[0])
 
-    if any(len(row) != cols_A for row in m_a):
-        raise TypeError("each row of m_a must be of the same size")
+    row_len = []
+    for row in m_a:
+        row_len.append(len(row))
+    if not all(elem == row_len[0] for elem in row_len):
+            raise TypeError("each row of m_a must should be of the same size")
+    row_len = []
+    for row in m_b:
+        row_len.append(len(row))
+    if not all(elem == row_len[0] for elem in row_len):
+            raise TypeError("each row of m_b must should be of the same size")
 
-    # Check if each row of m_b has the same size
-    if any(len(row) != cols_B for row in m_b):
-        raise TypeError("each row of m_b must be of the same size")
 
     if cols_A != rows_B:
         raise ValueError("m_a and m_b can't be multiplied")
