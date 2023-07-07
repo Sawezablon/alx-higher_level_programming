@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
 Module lazy_matrix_mul
-function that multiplies 2 matrices 
+function that multiplies 2 matrices
 
 """
 import numpy
