@@ -1,0 +1,15 @@
+Import module:
+
+    >>> MyList = __import__('1-my_list').MyList
+
+Now use it:
+
+    >>> a = MyList()
+    >>> a
+    []
+
+    >>> a = MyList(3)
+    >>> a
+    [3]
+
+    >>>
