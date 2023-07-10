@@ -6,8 +6,6 @@ case 0: import
 >>>
 -------------------------------------------
 
-case 1: common case
-
 >>> my_list = MyList()
 >>> my_list.append(1)
 >>> my_list.append(4)
