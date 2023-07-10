@@ -12,4 +12,10 @@ Now use it:
     >>> a
     [3]
 
-    >>>
+    >>> a = MyList("z")
+    >>> a
+    [3, 'z']
+
+    >>>a.print_sorted()
+    Traceback (most recent call last):
+    TypeError: '<' not supported between instances of 'str' and 'int'
