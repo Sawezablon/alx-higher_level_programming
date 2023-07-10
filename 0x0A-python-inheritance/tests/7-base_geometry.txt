@@ -1,0 +1,20 @@
+Test for 7-base_geometry.py
+
+Import:
+>>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
+
+>>> m = __import__("7-base_geometry").__doc__
+>>> len(z) > 1
+True
+
+>>> m = __import__("7-base_geometry").BaseGeometry.__doc__
+>>> len(z) > 1
+True
+
+>>> m = __import__("7-base_geometry").BaseGeometry.area.__doc__
+>>> len(z) > 1
+True
+
+>>> m = __import__("7-base_geometry").BaseGeometry.area.integer_validator.__doc__
+>>> len(z) > 1
+True
