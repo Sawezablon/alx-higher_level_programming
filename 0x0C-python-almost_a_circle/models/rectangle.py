@@ -1,5 +1,5 @@
 #!/usr/bin/pyhton3
-"""rectangle"""
+"""Module class rectangle"""
 from models.base import Base
 
 
